@@ -13,7 +13,7 @@
       "year": 2024,
       "title": "Event Title 2",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi laudantium minima architecto vero delectus praesentium...",
-      "imageURL": "https://images.unsplash.com/photo-1515169067865-5387ec356754",
+      "imageURL": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
       "category": "Category 2"
     },
     {
@@ -29,7 +29,7 @@
       "year": 2026,
       "title": "Event Title 4",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi laudantium minima architecto vero delectus praesentium...",
-      "imageURL": "https://images.unsplash.com/photo-1503424886308-418b38b01e12",
+      "imageURL": "https://images.unsplash.com/photo-1531058020387-3be344556be6",
       "category": "Category 4"
     },
     {
@@ -53,7 +53,7 @@
       "year": 2029,
       "title": "Event Title 7",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi laudantium minima architecto vero delectus praesentium...",
-      "imageURL": "https://images.unsplash.com/photo-1464375117522-1311d6a5b81a",
+      "imageURL": "https://images.unsplash.com/photo-1542224566-3c3c8acb5427?",
       "category": "Category 7"
     },
     {
@@ -66,4 +66,3 @@
     }
   ]
 }
-
