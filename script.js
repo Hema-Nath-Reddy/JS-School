@@ -36,11 +36,13 @@ function openModal(event) {
   const img = document.createElement("img");
   img.src = event.imageURL;
   img.alt = event.title;
-  modal.append(h2, p, button, img);
-  modal.style.display = "block";
+  modal.append(h2, p, img, button);
+  modal.style.display = "flex";
+  document.querySelector(".blur").style.display = "block";
 
   document.getElementById("close-modal").addEventListener("click", () => {
     modal.style.display = "none";
+    document.querySelector(".blur").style.display = "none";
   });
 }
 fetchEvents();
