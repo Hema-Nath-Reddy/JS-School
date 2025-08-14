@@ -12,11 +12,10 @@ function renderMarkers(events) {
   const timeline = document.getElementById("timeline");
   events.forEach((event) => {
     const marker = document.createElement("article");
-    marker.classList.add("marker");
-    marker.textContent = event.year;
+
     timeline.append(marker);
     const openModalBtn = document.createElement("button");
-    openModalBtn.innerHTML = "More details";
+    openModalBtn.innerHTML = event.year;
     marker.append(openModalBtn);
     openModalBtn.addEventListener("click", () => openModal(event));
   });

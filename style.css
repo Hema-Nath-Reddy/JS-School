@@ -2,9 +2,12 @@
 * {
   font-family: Montserrat;
 }
+body {
+  overflow: hidden;
+}
 img {
-  width: 400px;
-  height: 400px;
+  width: 20vw;
+  aspect-ratio: 1/1;
 }
 #modal {
   position: absolute;
@@ -12,22 +15,22 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgb(157, 194, 226);
-  padding: 10px;
-  border-radius: 10px;
-  display: flex;
+  padding: 1vw;
+  border-radius: 1vw;
+  display: none;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 #modal button {
   width: 100%;
-  padding: 10px;
+  padding: 1vw;
   border: none;
   border-radius: 5px;
   background-color: gray;
   font-weight: bold;
-  font-size: 20px;
-  margin-top: 50px;
+  font-size: 1vw;
+  margin-top: 2vw;
   cursor: pointer;
 }
 .blur {
@@ -38,4 +41,69 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.414);
   display: none;
+}
+nav {
+  background-color: lightgray;
+  padding: 0.25vw;
+  width: 15vw;
+  border-radius: 5px;
+  margin-left: auto;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 1.5vw;
+}
+
+main {
+  background-color: black;
+  color: white;
+  margin: 1.5vw;
+  border-radius: 5px;
+  padding: 1.5vw;
+}
+#timeline {
+  margin-top: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+}
+#timeline button {
+  background-color: transparent;
+  border-radius: 50vw;
+  padding: 1vw;
+  border: 1px solid blue;
+  font-size: 1.5vw;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+}
+#timeline button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateX(-100%);
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  border-radius: 5px;
+  z-index: -1;
+}
+#timeline button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateX(100%);
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  border-radius: 5px;
+  z-index: -1;
 }
