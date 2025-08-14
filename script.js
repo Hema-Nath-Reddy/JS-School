@@ -16,7 +16,7 @@ function renderMarkers(events) {
     marker.textContent = event.year;
     timeline.append(marker);
     const openModalBtn = document.createElement("button");
-    openModalBtn.innerHTML = "Open Modal";
+    openModalBtn.innerHTML = "More details";
     marker.append(openModalBtn);
     openModalBtn.addEventListener("click", () => openModal(event));
   });
