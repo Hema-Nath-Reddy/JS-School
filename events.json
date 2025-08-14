@@ -1,0 +1,68 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "year": 2023,
+      "title": "Event Title",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi laudantium minima architecto vero delectus praesentium...",
+      "imageURL": "https://images.unsplash.com/photo-1503428593586-e225b39bddfe",
+      "category": "Category"
+    },
+    {
+      "id": 2,
+      "year": 2024,
+      "title": "Event Title 2",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi laudantium minima architecto vero delectus praesentium...",
+      "imageURL": "https://images.unsplash.com/photo-1515169067865-5387ec356754",
+      "category": "Category 2"
+    },
+    {
+      "id": 3,
+      "year": 2025,
+      "title": "Event Title 3",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi laudantium minima architecto vero delectus praesentium...",
+      "imageURL": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+      "category": "Category 3"
+    },
+    {
+      "id": 4,
+      "year": 2026,
+      "title": "Event Title 4",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi laudantium minima architecto vero delectus praesentium...",
+      "imageURL": "https://images.unsplash.com/photo-1503424886308-418b38b01e12",
+      "category": "Category 4"
+    },
+    {
+      "id": 5,
+      "year": 2027,
+      "title": "Event Title 5",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi laudantium minima architecto vero delectus praesentium...",
+      "imageURL": "https://images.unsplash.com/photo-1519741497674-611481863552",
+      "category": "Category 5"
+    },
+    {
+      "id": 6,
+      "year": 2028,
+      "title": "Event Title 6",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi laudantium minima architecto vero delectus praesentium...",
+      "imageURL": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30",
+      "category": "Category 6"
+    },
+    {
+      "id": 7,
+      "year": 2029,
+      "title": "Event Title 7",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi laudantium minima architecto vero delectus praesentium...",
+      "imageURL": "https://images.unsplash.com/photo-1464375117522-1311d6a5b81a",
+      "category": "Category 7"
+    },
+    {
+      "id": 8,
+      "year": 2030,
+      "title": "Event Title 8",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi laudantium minima architecto vero delectus praesentium...",
+      "imageURL": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30",
+      "category": "Category 8"
+    }
+  ]
+}
